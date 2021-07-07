@@ -2,4 +2,4 @@
 test the demo of ode together with drawstuff on my M1 Mac mini
 
 ## Install script 
-```git push -u origin main```
+```clang++ `pkg-config --cflags --libs ode drawstuff` -o myapp demo_basket.cpp```
