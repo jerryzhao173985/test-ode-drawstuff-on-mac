@@ -6,7 +6,7 @@ test the demo of ode together with drawstuff on my M1 Mac mini
 
 With the full command being:
 ```
-clang++ -DdSINGLE -DDEFAULT_PATH_TO_TEXTURES=/usr/local/share/drawstuff/textures/ -I/usr/local/include -L/usr/local/lib -lode -ldrawstuff -framework OpenGL -framework GLUT -o ball demo_basket.cpp
+clang++ -DdSINGLE -I/usr/local/include -L/usr/local/lib -lode -ldrawstuff -framework OpenGL -framework GLUT -o ball demo_basket.cpp
 ```
 
 When it has error like this:
