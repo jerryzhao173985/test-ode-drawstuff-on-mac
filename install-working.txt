@@ -1,0 +1,1 @@
+clang++ `pkg-config --cflags --libs ode drawstuff` -o myapp demo_basket.cpp
